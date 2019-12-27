@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  background-color: #f4f4f3;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 200px;
+}
+
+#game {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  margin: auto;
+  margin-left: 50px;
+}
+
+#playerCount {
+  width: 100%;
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;font-size: 25px;
+  font-weight: bold;
+  color: darkolivegreen;
+}
+
+#scores {
+  width: 100%;
+  text-align: center;
+  font-family: 'Baloo Bhai', cursive;font-size: 20px;
+
+}
+
+#h3{
+  text-align: center;
+  margin-left: 200px;
+  font-family: 'Press Start 2P', cursive;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+}
+
